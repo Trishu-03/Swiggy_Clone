@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+
+<style>
+  *{
+    margin:0;
+    padding: 0;
+  }
+  .front-view{
+    background: orangered;
+    font-family: Verdana, Geneva;
+    font-weight: bold;
+    font-size: medium;
+    color: white;
+    padding-bottom: 50px;
+
+  }
+  .nav-bar{
+    
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+  .nav-second-div{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:40px;
+    
+
+  }
+  .logo{
+
+  }
+
+  .get-app{
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 15px 35px;
+
+  }
+  
+  .sign-btn{
+    background: black;
+    padding: 15px 35px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.para{
+  text-align: center;
+  font-size: 40px;
+  font-family: sans-serif ;
+  margin-top: 30px;
+
+}
+.location{
+  padding: 15px 25px;
+  width:200px;
+  border-radius: 10px;
+  border: none;
+
+}
+
+.search{
+  width: 350px;
+  padding: 15px 25px;
+  border-radius: 10px;
+  border: none;
+}
+
+.all-input{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin: 30px 20px;
+}
+
+.grid-element{
+  /* display: grid;
+  grid-template-columns: 1fr 1fr 1fr; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+
+.internal-box1{
+  
+
+  height: 220px;
+  width: 250px;
+  background: white;
+  border-radius: 30px;
+ 
+}
+</style>
+
+
+
+<body>
+  <div class="front-view">
+    <nav class="nav-bar">
+      <div class="logo">Swiggy</div>
+      <div class="nav-second-div">
+        <div class="Corportate">Swiggy Corportate</div>
+        <div class="Partner">Partner with us</div>
+        <div class="get-app">Get the App</div>
+        <div>
+          <button class="sign-btn">Sign In</button>
+        </div>
+      </div>
+      
+    </nav>
+
+    <div class="para">
+      <p></p>Order food & groceries.<br> Discover best restaurants. Swiggy it!</p>
+    </div>
+    <div class="all-input">
+      
+    <input class="location" placeholder="Enter your delivery location">
+    <input class="search" placeholder="Search for restaurants items or more">
+    </div>
+
+
+    <div class="grid-element">
+      <div class="internal-box1"></div>
+      <div class="internal-box1"></div>
+      <div class="internal-box1"></div>
+    </div>
+  </div>
+</body>
+</html>
